@@ -20,6 +20,7 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
 ol, ul {
     list-style: none;
 }
+/* header styling */
 
 header {
     display: flex;
@@ -29,14 +30,61 @@ header {
     border-bottom: 1px solid #c6c6c6 ;
 }
 
-/* header styling */
 #logo {
     width: 127px;
 }
 
-#user {
+#user, .avatar-img {
     max-width: 40px;
     height: 40px;
     border-radius: 50%;
 }
 
+.post-img {
+    width: 375px;
+}
+
+.avatar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.avatar-name {
+    font-size: 13px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.avatar-location {
+    font-size: 12px;
+    color: #000000;
+}
+
+.bottom-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-container > p {
+    text-align: left;
+    margin-top: 10px;
+}
+
+.username, .likes-container > p {
+    font-weight: bold;
+    margin-right: 3px;
+    text-align: left;    
+}
+
+.icons-container {
+    max-width: 105px;
+    text-align: left;
+}
+
+.icon {
+    width: 23px;
+}
