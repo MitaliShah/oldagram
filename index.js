@@ -1,6 +1,6 @@
 import { posts } from "./data.js";
 
-// get the inputs required
+// get the input for the main
 let container = document.querySelector("#container");
 
 function loadCards (posts) {
